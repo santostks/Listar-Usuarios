@@ -1,0 +1,23 @@
+<div class="container">
+
+  <div *ngIf="this.usuarios">
+    <table>
+      <tr>
+        <th>ID</th>
+        <th>NAME</th>
+        <th>USERNAME</th>
+        <th>EMAIL</th>
+      </tr>
+      <tr>
+        <td>{{(this.usuarios.id)}}</td>
+        <td>{{(this.usuarios.name)}}</td>
+        <td>{{(this.usuarios.username)}}</td>
+        <td>{{(this.usuarios.email)}}</td>
+      </tr>
+    </table>
+    <ul>
+      <li *ngFor="let usuario of "> {{ usuarios.name }} </li>
+    </ul>
+
+  </div>
+</div>
